@@ -1,0 +1,22 @@
+{
+	"name": "StubComposerName",
+	"description": "",
+	"type": "library",
+	"version": "1.0",
+	"license": "proprietary",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"StubModuleNamespace\\StubClassNamePrefix\\": "src/"
+		}
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"StubModuleNamespace\\StubClassNamePrefix\\app\\Providers\\ModuleServiceProvider",
+				"StubModuleNamespace\\StubClassNamePrefix\\app\\Providers\\AppServiceProvider"
+			]
+		}
+	}
+}
