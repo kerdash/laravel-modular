@@ -10,7 +10,7 @@ use Illuminate\Support\ServiceProvider;
 
 class ModuleServiceProvider extends ServiceProvider
 {
-    protected $module = 'StubClassNamePrefix';
+    protected $module = 'StubClassName';
 
     public function register()
     {
